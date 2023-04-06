@@ -1,0 +1,22 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+
+
+/* Barra de Navegacion */
+
+.navbar {
+    padding: 1rem;
+    background-color: #e3f2fd;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 700px){
+    .navbar-brand {
+        display:  none;
+    }
+}
