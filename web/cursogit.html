@@ -51,8 +51,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                   Cursos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="cursogit.html" target="_blank" rel="noopener noreferrer">Git</a></li>
-                  <li><a class="dropdown-item" href="cursocss.html" target="_blank" rel="noopener noreferrer">CSS</a></li>
+                  <li><a class="dropdown-item" href="cursogit.html">Git</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -105,14 +104,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                     <ol class="lista list-group-numbered">
                         <li class="list-group-item"><a href="#Whatis" class="color">What is?</a></li>
                         <li class="list-group-item"><a href="#acerca" class="color">Acerca de Git</a></li>
-                        <li class="list-group-item">Comandos especiales</li>
-                        <li class="list-group-item">Git init</li>
-                        <li class="list-group-item">Git status</li>
-                        <li class="list-group-item">Git branch</li>
-                        <li class="list-group-item">Git chechkout</li>
-                        <li class="list-group-item">Git push</li>
-                        <li class="list-group-item">Git clone</li>
-                        <li class="list-group-item">Git commit</li>
+                        <li class="list-group-item"><a href="#coman" class="color">Comandos especiales</a></li>
+                        <li class="list-group-item"><a href="#init" class="color">Git init</a></li>
+                        <li class="list-group-item"><a href="#status" class="color">Git status</a></li>
+                        <li class="list-group-item"><a href="#branch" class="color">Git branch</a></li>
+                        <li class="list-group-item"><a href="#checkout" class="color">Git chechkout</a></li>
+                        <li class="list-group-item"><a href="#push" class="color">Git push</a></li>
+                        <li class="list-group-item"><a href="#clone" class="color">Git clone</a></li>
+                        <li class="list-group-item"><a href="#commit" class="color">Git commit</a></li>
                       </ol>
                 </div>
             </div>
@@ -175,18 +174,80 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     </section>
     
     <section>
-        <div class="git">
-      <a name="Git"></a>
-      <br>
-      <h2 align="center">¿Qué es Git?</h2>
-      <p align="center">Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad. Los desarrolladores confirman su trabajo localmente y, a continuación, sincronizan su copia del repositorio con la copia en el servidor. </p>
-      <br>
-    </div>
-        
+        <div class="fondo2">
+        <div>
     </section>
     
-    <br><br><br>
-       
+    <section class="curso seccion-oscura">
+        <div class="container text-center">
+            <a name="coman"></a>
+            <h1>COMANDOS PRINCIPALES</h1>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <!--Inico-->
+                <div class="col-12 col-md-6">
+                    <a name="init"></a>
+                    <h3 class="align-items-center text-center">GIT INIT</h3>
+                    <p class="align-items-center text-center">El comando git init crea un nuevo repositorio de Git. Puede utilizarse para convertir
+                        un proyecto existente y sin versió en un repositorio de Git, o para inicializar un nuevo repositorio vacío..</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a name="status"></a>
+                    <h3 class="align-items-center text-center">GIT STATUS</h3>
+                    <p class="align-items-center text-center">El comando git status muestra el estado del directorio de trabajo y del 
+                        área del entorno de ensayo. Permite ver los cambios que se han preparado, los que no y los archivos en los que Git 
+                        no va a realizar el seguimiento.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a name="branch"></a>
+                    <h3 class="align-items-center text-center">GIT BRANCH</h3>
+                    <p class="align-items-center text-center">El comando git branch te permite crear, enumerar y eliminar ramas, 
+                        así como cambiar su nombre del repositorio al que pertenecen. Además te permite saber el nombre de la
+                        rama en que te encuentras</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a name="checkout"></a>
+                    <h3 class="align-items-center text-center">GIT CHECKOUT</h3>
+                    <p class="align-items-center text-center">El comando git checkout te permite desplazarte entre las ramas creadas por
+                        git branch. Al extraer una rama, se actualizan los archivos en el directorio de trabajo y se indica a Git 
+                        que registre todas las confirmaciones nuevas en dicha rama.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a name="push"></a>
+                    <h3 class="align-items-center text-center">GIT PUSH</h3>
+                    <p class="align-items-center text-center">El comando git push se usa para cargar contenido del repositorio local
+                        a un repositorio remoto. El envío es la forma de transferir confirmaciones desde tu repositorio local a un repositorio remoto</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a name="clone"></a>
+                    <h3 class="align-items-center text-center">GIT CLONE</h3>
+                    <p class="align-items-center text-center">Se utiliza principalmente para apuntar a un repositorio existente
+                        y clonar o copiar dicho repositorio en un nuevo directorio, en otra ubicación.</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a name="commit"></a>
+                    <h3 class="align-items-center text-center">GIT COMMIT</h3>
+                    <p class="align-items-center text-center">El comando git commit sirve para confirmar una instantánea del directorio 
+                        del entorno de ensayo en el historial de confirmaciones de los repositorios</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a name="commit"></a>
+                    <h3 class="align-items-center text-center">GIT PULL</h3>
+                    <p class="align-items-center text-center">El comando git pull se emplea para extraer y descargar contenido desde 
+                        un repositorio remoto y actualizar al instante el 
+                        repositorio local para reflejar ese contenido.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="fondo3">
+        <div>
+    </section>
+    
     <!-- Footer -->
       
         <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
