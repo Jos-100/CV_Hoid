@@ -137,6 +137,35 @@ footer{
     color: black;
 }
 
+/* Aptitudes */
+
+.apti {
+    padding: 40px;
+}
+
+.seccion-clara {
+    background-color: #e8e8ff;
+    color: black;
+}
+
+.apti .row div {
+    height: 250px;
+    
+}
+
+.tarjetas{
+    height: 1rem;
+    width: 11rem;
+    background-color: #ccccff;
+}
+
+.imgfonfo {
+    background-color: pink;
+    height: 7rem;
+    border-radius:7px;
+    border-color: pink;
+}
+
 @media screen and (max-width: 700px){
     .navbar-brand {
         display:  none;
