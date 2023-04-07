@@ -166,6 +166,42 @@ footer{
     border-color: pink;
 }
 
+/* Curso Git*/
+.curso {
+    padding: 80px;
+}
+
+.curso .row div {
+    height: 250px;
+    
+}
+
+.lista{
+    color:white;
+    background: black;
+}
+
+.content{
+    text-align: center;
+} 
+
+.fondo1{
+    width:100%;
+    height: 250px;
+    background-image: url("https://humanidades.com/wp-content/uploads/2017/05/universo-1-e1568576142428.jpg");
+    background-size: 120%;
+    animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }
+    to{
+        background-position: top right;
+    }
+}
+
 @media screen and (max-width: 700px){
     .navbar-brand {
         display:  none;
