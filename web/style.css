@@ -200,6 +200,11 @@ footer{
 .textohisto2{
     text-align: center;
 }
+
+.color{
+    color: white;
+}
+
 @keyframes movimiento{
     from{
         background-position: bottom left;
@@ -208,6 +213,7 @@ footer{
         background-position: top right;
     }
 }
+
 
 @media screen and (max-width: 700px){
     .navbar-brand {

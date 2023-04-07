@@ -75,7 +75,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             </div>
         </div>
     </nav>
-        <br>   
+         
     
     <!--Inicio curso git-->
     <section class="curso seccion-oscura">
@@ -87,6 +87,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             <div class="row">
                 <!--Inico-->
                 <div class="col-12 col-md-5">
+                    <a name="Whatis"></a>
                     <h3 class="align-items-center text-center">What is Git?</h3>
                     <p class="align-items-center text-center">Git es un sistema de control de versiones distribuido, lo que significa que hace un
                        clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente 
@@ -102,8 +103,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                     <!-- Sobre mi Pasatiempos (lista) -->
                     <h3 class="content">&nbsp&nbsp&nbspContenido</h3>
                     <ol class="lista list-group-numbered">
-                        <li class="list-group-item">What is?</li>
-                        <li class="list-group-item">Acerca de Git</li>
+                        <li class="list-group-item"><a href="#Whatis" class="color">What is?</a></li>
+                        <li class="list-group-item"><a href="#acerca" class="color">Acerca de Git</a></li>
                         <li class="list-group-item">Comandos especiales</li>
                         <li class="list-group-item">Git init</li>
                         <li class="list-group-item">Git status</li>
@@ -127,6 +128,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     
     <section class="curso seccion-oscura">
         <div class="container text-center">
+            <a name="acerca"></a>
             <h1>ACERCA DE GIT</h1>
         </div>
         <br><br>
@@ -142,7 +144,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                 </div>
                 <div class="col-12 col-md-3">
                     <h3 class="align-items-center text-center">Instalacion</h3>
-                    <p class="textohisto">Descargue e instale <a href="https://git-scm.com/">Git.</a> Una vez instalado, 
+                    <p class="textohisto">Descargue e instale <a href="https://git-scm.com/" class="color">Git.</a> Una vez instalado, 
                         Git está disponible desde el símbolo del sistema o PowerShell. Se recomienda seleccionar los valores predeterminados 
                         durante la instalación. Git no se actualiza automáticamente. Para actualizarlo descargue la nueva versión del instalador, que actualiza 
                         Git para Windows y conserva toda la configuración.</p>
@@ -172,80 +174,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <br>
     </section>
     
-    <br><br><br>
-        <div class="container text-center">
-            <h1>Pasatiempos</h1>
-        </div>
-        <br>
-    <!-- Sobre mi Pasatiempos (lista) -->
-    <section class="pasatiempos seccion-pasa">
-        <ol class="list-group list-group-numbered">
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Leer</div>
-                Fantasía
-              </div>
-              <div>
-              <i class="bi bi-book"></i>     
-              </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Oir musica</div>
-                Pop en inglés
-              </div>
-              <div>
-              <i class="bi bi-music-note-beamed"></i>   
-              </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Debatir</div>
-                Temas controversiales
-              </div>
-              <div>
-              <i class="bi bi-chat-dots"></i>      
-              </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Ver series</div>
-                De drama
-              </div>
-              <div>
-              <i class="bi bi-tv"></i>      
-              </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Analizar</div>
-                Situaciones y personas
-              </div>
-              <div>
-             <i class="bi bi-search"></i>     
-              </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Aprender</div>
-                Cras justo odio
-              </div>
-              <div>
-              <i class="bi bi-lightbulb"></i>     
-              </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-              <div class="ms-2 me-auto">
-                <div class="fw-bold">Salir</div>
-                A lugares nuevos
-              </div>
-              <div>
-                 <i class="bi bi-airplane"></i>
-              </div>
-            </li>
-        </ol>
-        <br><br><br>
+    <section>
+        <div class="git">
+      <a name="Git"></a>
+      <br>
+      <h2 align="center">¿Qué es Git?</h2>
+      <p align="center">Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad. Los desarrolladores confirman su trabajo localmente y, a continuación, sincronizan su copia del repositorio con la copia en el servidor. </p>
+      <br>
+    </div>
+        
     </section>
+    
+    <br><br><br>
+       
     <!-- Footer -->
       
         <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
